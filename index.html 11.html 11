@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Demo</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Section -->
+    <nav class="navbar">
+        <h1 class="logo">My Website</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Container -->
+    <section class="container">
+        <h2>Welcome to the Box Model Demo</h2>
+        <p>
+            This page demonstrates the use of the CSS box model, including 
+            <strong>margin, border, and padding</strong>.
+        </p>
+    </section>
+
+    <!-- Card Section -->
+    <section class="cards">
+        <div class="card">
+            <h3>Card 1</h3>
+            <p>This is an example of a styled card using the box model.</p>
+            <button>Learn More</button>
+        </div>
+        <div class="card">
+            <h3>Card 2</h3>
+            <p>Each card has padding, margin, and a border applied.</p>
+            <button>Learn More</button>
+        </div>
+        <div class="card">
+            <h3>Card 3</h3>
+            <p>Cards are aligned with spacing to demonstrate layout styling.</p>
+            <button>Learn More</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 My Website | Designed for CSS Box Model Demo</p>
+    </footer>
+</body>
+</html>
